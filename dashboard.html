@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Answer | <%- title %></title>
+  <title>Answer | Dashboard</title>
   <link rel="stylesheet" href="./assets/style/all.css">
    <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -23,7 +23,7 @@
     </a>
     
     <ul class="nav flex-column">
-      <li class="nav-item mb-3 <%= current == 'dashboard' ? 'active' : '' %>">
+      <li class="nav-item mb-3 active">
         <a class="nav-link ps-0 d-flex align-items-center fw-bold" href="./dashboard.html">
           <span class="material-symbols-outlined ms-32 me-3">
             insert_chart
@@ -31,7 +31,7 @@
           Dashboard
         </a>
       </li>
-      <li class="nav-item mb-3 <%= current == 'question' ? 'active' : '' %>">
+      <li class="nav-item mb-3 ">
         <a class="nav-link ps-0 d-flex align-items-center fw-bold" href="./question.html">
           <span class="material-symbols-outlined ms-32 me-3">
             forum
@@ -39,7 +39,7 @@
           Question
         </a>
       </li>
-      <li class="nav-item mb-3 <%= current == 'assignment' ? 'active' : '' %>">
+      <li class="nav-item mb-3 ">
         <a class="nav-link ps-0 d-flex align-items-center fw-bold" href="./assignment.html">
           <span class="material-symbols-outlined ms-32 me-3">
             assignment
@@ -47,7 +47,7 @@
           Assignment
         </a>
       </li>
-      <li class="nav-item mb-3 <%= current == 'course' ? 'active' : '' %>">
+      <li class="nav-item mb-3 ">
         <a class="nav-link ps-0 d-flex align-items-center fw-bold" href="./course.html">
           <span class="material-symbols-outlined ms-32 me-3">
             video_library
@@ -55,7 +55,7 @@
           Course
         </a>
       </li>
-      <li class="nav-item mb-3 <%= current == 'admin' ? 'active' : '' %>">
+      <li class="nav-item mb-3 ">
         <a class="nav-link ps-0 d-flex align-items-center fw-bold" href="./admin.html">
           <span class="material-symbols-outlined ms-32 me-3">
             group
@@ -63,7 +63,7 @@
           Admin
         </a>
       </li>
-      <li class="nav-item mb-3 <%= current == 'settings' ? 'active' : '' %>">
+      <li class="nav-item mb-3 ">
         <a class="nav-link ps-0 d-flex align-items-center fw-bold" href="./settings.html">
           <span class="material-symbols-outlined ms-32 me-3">
             settings
@@ -87,7 +87,13 @@
     這是 header
   </header>
 
-  <%- contents %>
+  <main>
+  <h1 class="container-1">
+  Dashboard
+</h1>
+</main>
+
+
 
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>

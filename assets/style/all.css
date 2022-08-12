@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  color: #212529; }
+
+a {
+  text-decoration: none !important; }
+
+.font-mono {
+  font-family: 'Roboto Mono', monospace; }
+
+.pt-32 {
+  padding-top: 32px; }
+
+.pb-32 {
+  padding-bottom: 32px; }
+
+.ps-32 {
+  padding-left: 32px; }
+
+.pe-32 {
+  padding-right: 32px; }
+
+.ms-32 {
+  margin-left: 32px; }
+
+.me-32 {
+  margin-right: 32px; }
+
+.mb-32 {
+  margin-bottom: 32px; }
+
+.p-12 {
+  padding: 12px; }
+
+.fs-14 {
+  font-size: 14px; }
+
+.fs-12 {
+  font-size: 12px; }
+
+.container-1 {
+  max-width: 1248px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+body a span.material-symbols-outlined {
+  color: #212529; }
+
+body a span.material-symbols-outlined:hover {
+  color: #198754; }
+
+.aside {
+  position: fixed;
+  min-width: 296px;
+  min-height: 100vh; }
+
+.user-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/andychen.jpeg");
+  background-size: cover; }
+
+main {
+  margin-left: 296px; }
+
+.nav .nav-item {
+  border-left: 4px solid #F8F9FA; }
+  .nav .nav-item.active {
+    border-color: #198754; }
+    .nav .nav-item.active a {
+      color: #198754; }
+      .nav .nav-item.active a span {
+        color: #198754; }
+  .nav .nav-item a {
+    color: #212529; }
+    .nav .nav-item a:hover {
+      color: #198754; }
+      .nav .nav-item a:hover span {
+        color: #198754; }
+
+.assignment-list {
+  width: 320px; }
+
+.student-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=400&q=80");
+  background-size: cover; }
+
+.assignment-list {
+  width: 320px; }
+  .assignment-list .list-group-item.active {
+    background-color: #F8F9FA;
+    border-color: #CED4DA; }
+
+.student-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/emilywang.jpeg");
+  background-size: cover; }
+
+.admin-table tbody {
+  cursor: pointer; }
+
+.admin-table a {
+  color: black; }
+  .admin-table a:hover {
+    color: #198754; }
+
+.pagination .page-item:first-of-type a {
+  border-radius: 2px 0 0 2px; }
+
+.pagination .page-item:last-of-type a {
+  border-radius: 0 2px 2px 0; }
+
+.page-item a.page-link {
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  color: #198754; }
+  .page-item a.page-link:hover, .page-item a.page-link.active {
+    color: #FFF;
+    background-color: #198754; }
+    .page-item a.page-link:hover span, .page-item a.page-link.active span {
+      color: #FFF; }
+  .page-item a.page-link span {
+    color: #198754; }
+
+#viewModal, #addModal, #editModal {
+  border-radius: 0px; }
+  #viewModal .modal-header, #addModal .modal-header, #editModal .modal-header {
+    border-radius: 2px 2px 0px 0px; }
+  #viewModal button, #viewModal a, #viewModal input, #viewModal select, #addModal button, #addModal a, #addModal input, #addModal select, #editModal button, #editModal a, #editModal input, #editModal select {
+    border-radius: 2px; }
+  #viewModal .modal-footer button, #addModal .modal-footer button, #editModal .modal-footer button {
+    padding-left: 32px;
+    padding-right: 32px; }
+
+#viewModal .admin-image {
+  width: 141px;
+  height: 141px;
+  background-image: url("../images/emir.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+#viewModal button {
+  padding-left: 32px;
+  padding-right: 32px; }
+
+#viewModal .viewVerified.collapsed span {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+/*# sourceMappingURL=all.css.map */
