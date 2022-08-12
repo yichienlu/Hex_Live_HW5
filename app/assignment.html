@@ -1,0 +1,222 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: assignment
+---
+<main>
+  <div class="container-1">
+    <div class="d-flex align-items-center mb-5 pb-32 ">
+        <h2 class="m-0 me-5 fs-4 fw-bold">Assignment</h2>
+        <div class="dropdown">
+          <div class=" border-0 d-flex" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            All courses
+            <span class="material-symbols-outlined text-success ms-2">
+              expand_more
+            </span>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">HTML/CSS</a></li>
+            <li><a class="dropdown-item" href="#">Javascript</a></li>
+            <li><a class="dropdown-item" href="#">Vue</a></li>
+          </ul>
+        </div>
+        <a href="#" class="ms-auto me-4">
+          <span class="material-symbols-outlined align-middle">
+            search
+          </span>
+        </a>
+        <a href="#">
+          <span class="material-symbols-outlined">
+            notifications_active
+          </span>
+        </a>
+
+    </div>
+    <div class="d-block d-lg-flex">
+      <div>
+        <div class="dropdown">
+        <div class="d-flex fz-3 lh-base mb-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          All (4)
+          <span class="material-symbols-outlined text-success ms-2">
+            expand_more
+          </span>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">HTML/CSS</a></li>
+          <li><a class="dropdown-item" href="#">Javascript</a></li>
+          <li><a class="dropdown-item" href="#">Vue</a></li>
+        </ul>
+      </div>
+        <ul class="list-group assignment-list me-3 bg-white">
+          <li class="list-group-item p-0 active">
+            <a href="#" class="d-block p-12 text-black">
+              <div class="d-flex justify-content-between mb-1">
+                <div class="fs-12 lh-sm text-muted">Chapter Assignment 2</div>
+                <div class="fs-12 lh-sm">4 hrs ago</div>
+              </div>
+              <div class="d-flex justify-content-between align-items-baseline">
+                <div class="fw-bold lh-sm mb-0">Please check this file…</div>
+                <div class="fs-12 lh-sm text-muted">Emily Wang</div>
+              </div>
+            </a>
+          </li>
+          <li class="list-group-item p-0">
+            <a href="#" class="d-block p-12 text-black">
+              <div class="d-flex justify-content-between mb-1">
+                <div class="fs-12 lh-sm text-muted">Chapter Assignment 1</div>
+                <div class="fs-12 lh-sm">12 hrs ago</div>
+              </div>
+              <div class="d-flex justify-content-between align-items-baseline">
+                <div class="fw-bold lh-sm mb-0">My Homework </div>
+                <div class="fs-12 lh-sm text-muted">David Xu</div>
+              </div>
+            </a>
+          </li>
+          <li class="list-group-item p-0">
+            <a href="#" class="d-block p-12 text-black">
+              <div class="d-flex justify-content-between mb-1">
+                <div class="fs-12 lh-sm text-muted">Final Assignment</div>
+                <div class="fs-12 lh-sm">18 hrs ago</div>
+              </div>
+              <div class="d-flex justify-content-between align-items-baseline">
+                <div class="fw-bold lh-sm mb-0">Have a problem with this…</div>
+                <div class="fs-12 lh-sm text-muted">Tony Wei</div>
+              </div>
+            </a>
+          </li>
+          <li class="list-group-item p-0">
+            <a href="#" class="d-block p-12 text-black">
+              <div class="d-flex justify-content-between mb-1">
+                <div class="fs-12 lh-sm text-muted">Final Assignment</div>
+                <div class="fs-12 lh-sm">19 hrs ago</div>
+              </div>
+              <div class="d-flex justify-content-between align-items-baseline">
+                <div class="fw-bold lh-sm mb-0">Did I do it right?</div>
+                <div class="fs-12 lh-sm text-muted">Christina Lin</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+       <div>
+        <p class="text-end mb-2 fs-12 lh-lg text-muted">2 comments</p>
+        <div class="card">
+          <div class="card-header d-flex justify-content-sm-between align-items-center bg-light">
+            <div>
+              <div class="fs-12 lh-lg">Chadivter Assignment 2 / HTML&CSS</div>
+              <div class="fs-6 fw-bold">Please check this file for me, thanks!</div>
+            </div>
+            <span class="material-symbols-outlined">
+              more_vert
+            </span>
+          </div>
+          <div class="card-body ps-3 pe-32 py-3">
+            <div class="card-title d-flex align-items-center mb-3">
+              <div class="flex-shrink-0">
+                <div class="student-image rounded-circle"></div>
+              </div>
+              <div class="flex-grow-1 ms-2">
+                <p class="mb-1 lh-base fw-bold">Emily Wang</p>
+                <p class="mb-0 text-muted fs-12">10:38 AM (4 hours ago)</p>
+              </div>
+            </div>
+            <p class="card-text ps-5 pe-32">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="text-success font-mono">div</span> is bigger than the height of the img ? There is a gap below the <span class="text-success font-mono">image</span>, but it doesn’t seems to be a padding/margin. <br>
+               What is the gap or extra space below image?</p>
+            <a href="#" class="btn border rounded-1 ms-5 d-inline-block" download="HW-2-Emily.zip">
+              <span class="material-symbols-outlined me-2 align-middle">
+                attach_file
+              </span>
+              HW-2-Emily.zip
+            </a>
+            <hr class="ms-5 me-32">
+            <div class="assignment-reply d-none">
+              <div class="card-title d-flex align-items-center mb-3 pe-32">
+                <div class="flex-shrink-0">
+                  <div class="user-image rounded-circle"></div>
+                </div>
+                <div class="flex-grow-1 ms-2">
+                  <p class="mb-1 lh-base fw-bold">Andy Chen (You)</p>
+                  <p class="mb-0 text-muted fs-12">13:24 AM (1 hours ago)</p>
+                </div>
+                <span class="material-symbols-outlined me-4">
+                  grade
+                </span>
+                <a href="#" onclick="assignment_edit()">
+                  <span class="material-symbols-outlined align-middle text-black">
+                    edit
+                  </span>
+                </a>
+
+              </div>
+              <p class="card-text ps-5 pe-32">
+                Hi Emily, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. <br>
+                You can: 　<br>
+                • adjust the 
+              <span class="text-success font-mono">vertical-align</span>  of the image to position it elsewhere (e.g. the <span class="text-success font-mono">middle</span> ) or  <br>
+                • change the <span class="text-success font-mono">display</span> so it isn’t inline.
+              </p>
+            </div>
+            <!-- <div class="assignment-reply-editor">CKEditor 有空再研究</div> -->
+          </div>
+        </div>
+        <div class="assignment-reply-controls d-flex align-items-center mt-3 d-none">
+          <span class="material-symbols-outlined me-4">
+            navigate_before
+          </span>
+          <span class="material-symbols-outlined">
+            navigate_next
+          </span>
+          <button type="button" class="btn btn-outline-success me-3 ms-auto">Mark as read</button>
+          <button type="button" class="btn btn-success">Reply</button>
+        </div>
+
+        <!-- Editor -->
+        <div class="card assignment-reply-editor">
+          <div class="card-header d-flex align-items-center bg-light">
+            <button class="btn dropdown-toggle me-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Body Text
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Arial</a></li>
+              <li><a class="dropdown-item" href="#">B</a></li>
+              <li><a class="dropdown-item" href="#">C</a></li>
+            </ul>
+
+            <span class="material-symbols-outlined me-4">
+              format_bold
+            </span>
+            <span class="material-symbols-outlined me-4">
+              format_italic
+            </span>
+            <span class="material-symbols-outlined me-4">
+              format_list_bulleted
+            </span>
+            <span class="material-symbols-outlined me-4">
+              format_list_numbered
+            </span>
+            <span class="material-symbols-outlined me-4">
+              image
+            </span>
+            <span class="material-symbols-outlined me-4">
+              link
+            </span>
+            <span class="material-symbols-outlined">
+              code
+            </span>
+          </div>
+          <div class="card-body text-end">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Reply an answer…" class="border-0 w-100"></textarea>
+            <button type="button" class="btn btn-outline-success me-3">Cancel</button>
+            <button type="button" class="btn btn-success" onclick="assignment_reply()">Reply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</main>
+

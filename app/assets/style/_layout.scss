@@ -1,0 +1,55 @@
+// * {
+// 	outline: 1px solid #AAA
+// }
+
+$success: #198754;
+
+.aside {
+	position: fixed;
+	min-width: 296px;
+	min-height: 100vh;
+}
+
+.user-image {
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/andychen.jpeg');
+	background-size: cover;
+ }
+ main {
+	margin-left: 296px;
+ }
+ .nav {
+	.nav-item {
+		border-left: 4px solid #F8F9FA;
+		&.active {
+			border-color: $success;
+			a {
+				color: $success;
+				span {
+					color: $success;
+				}
+			}
+		}
+		a {
+			color: #212529;
+			&:hover {
+				color: $success;
+				span {
+					color: $success;
+				}
+			}
+		}
+	}
+ }
+
+ .assignment-list {
+	width: 320px;
+ }
+ .student-image {
+	width: 40px;
+	height: 40px;
+	background-image: url('https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=400&q=80');
+	background-size: cover;
+ }
+
